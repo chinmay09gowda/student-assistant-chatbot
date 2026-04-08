@@ -21,7 +21,11 @@ if (!fs.existsSync(uploadDir)) {
 const upload = multer({ dest: uploadDir });
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.ALLOWED_ORIGIN || "*",
+  methods: ["GET", "POST"],
+  credentials: true
+}));
 app.use(express.json());
 
 app.post("/api/chat", upload.single("file"), async (req, res) => {
