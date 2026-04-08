@@ -12,7 +12,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 3500); // Wait 3.5 seconds for the preloader animation
+    }, 2000); // reduced wait time
     return () => clearTimeout(timer);
   }, []);
 
