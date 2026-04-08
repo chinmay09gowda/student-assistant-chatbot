@@ -6,7 +6,8 @@ export async function sendMessage(messages, file = null) {
       formData.append("file", file);
     }
 
-    const resp = await fetch("http://localhost:5001/api/chat", {
+    const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
+    const resp = await fetch(`${API_URL}/api/chat`, {
       method: "POST",
       body: formData,
     });
