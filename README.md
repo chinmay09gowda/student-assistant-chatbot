@@ -2,6 +2,9 @@
 
 An AI-powered study companion designed for Indian students up to 10th standard. It provides clear, syllabus-based answers in a simple and interactive manner, helping students learn more effectively in their daily studies.
 
+## Live Demo
+Check out the live application here: [student-assistant-chatbot.vercel.app](https://student-assistant-chatbot.vercel.app)
+
 ---
 
 ## Features
@@ -29,6 +32,22 @@ An AI-powered study companion designed for Indian students up to 10th standard. 
 - **Tesseract.js**: For high-accuracy Optical Character Recognition (OCR).
 - **pdf-parse**: Reliable server-side PDF content extraction.
 - **AI SDKs**: Integrated Groq and OpenAI providers.
+
+---
+
+## Visual Preview
+
+### 🖥️ Onboarding & Setup
+![Setup Screen](screenshots/setup.png)
+*Personalized onboarding for Board, Class, and Subject selection.*
+
+### 💬 Interactive Chat
+![Chat Screen](screenshots/chat.png)
+*Concise, syllabus-aligned answers with file analysis support.*
+
+### 📊 Educational Diagrams
+![Diagram Screen](screenshots/diagram.png)
+*AI-generated visual aids for complex scientific concepts.*
 
 ---
 
