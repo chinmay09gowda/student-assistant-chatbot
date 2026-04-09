@@ -1,5 +1,6 @@
-import React, { useState, useRef } from "react";
-import { sendMessage } from "../api";
+import { useState, useRef } from "react";
+import PropTypes from "prop-types";
+import { sendMessage } from "../services/api";
 import ReactMarkdown from "react-markdown";
 
 const MarkdownImage = ({ src, alt }) => {
@@ -16,6 +17,11 @@ const MarkdownImage = ({ src, alt }) => {
       />
     </div>
   );
+};
+
+MarkdownImage.propTypes = {
+  src: PropTypes.string,
+  alt: PropTypes.string
 };
 
 export default function ChatWindow({ subject }) {
@@ -112,3 +118,7 @@ export default function ChatWindow({ subject }) {
     </div>
   );
 }
+
+ChatWindow.propTypes = {
+  subject: PropTypes.string.isRequired
+};

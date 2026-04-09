@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import '../styles/Preloader.css';
 
 export default function Preloader({ isLoaded }) {
-  const coins = Array.from({ length: 12 });
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
@@ -39,3 +39,7 @@ export default function Preloader({ isLoaded }) {
     </div>
   );
 }
+
+Preloader.propTypes = {
+  isLoaded: PropTypes.bool.isRequired
+};

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ChatWindow from "./components/ChatWindow";
 import Preloader from "./components/Preloader";
 
@@ -124,7 +124,7 @@ export default function App() {
               <ul>
                 <li>Ask clear and concise questions.</li>
                 <li>
-                  Type <b>"diagram"</b> to get related images.
+                  Type <b>&quot;diagram&quot;</b> to get related images.
                 </li>
                 <li>
                   The AI acts strictly according to your selected subject and grade.
