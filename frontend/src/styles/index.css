@@ -66,9 +66,6 @@ body {
   padding: 0; /* Full width for dashboard */
 }
 
-.main-title {
-  display: none;
-}
 
 .subject-buttons {
   display: flex;
@@ -272,16 +269,32 @@ body {
   margin-bottom: 0.3rem;
 }
 
-.markdown-container img {
-  max-width: 100%;
-  border-radius: 16px;
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-top: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.image-skeleton {
+  height: 200px;
+  background: #f0f0f0;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.chat-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.markdown-container img:hover {
-  transform: scale(1.01);
+.chat-diagram:hover {
+  transform: scale(1.02);
 }
 
 .loading-pulse {

@@ -31,8 +31,8 @@ git clone https://github.com/chinmay09gowda/student-assistant-chatbot.git
 cd student-assistant-chatbot
 
 2. Backend Setup
-cd backend
-npm install
+    cd backend
+    npm install
 
 Create a .env file:
 

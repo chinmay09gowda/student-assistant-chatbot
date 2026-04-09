@@ -2,28 +2,17 @@ import React, { useState, useRef } from "react";
 import { sendMessage } from "../api";
 import ReactMarkdown from "react-markdown";
 
-const MarkdownImage = ({ node, ...props }) => {
+const MarkdownImage = ({ src, alt }) => {
   const [loaded, setLoaded] = useState(false);
-  const src = props.src || "";
   
   return (
-    <div style={{ position: 'relative', width: '100%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
-      {!loaded && <div className="loading-pulse" style={{ height: '200px', background: '#f0f0f0' }}></div>}
+    <div className={`image-wrapper ${loaded ? 'loaded' : 'loading'}`}>
+      {!loaded && <div className="image-skeleton"></div>}
       <img
-        {...props}
         src={src}
-        alt={props.alt || "Diagram Result"}
+        alt={alt || "Diagram"}
         onLoad={() => setLoaded(true)}
-        style={{ 
-          display: loaded ? 'block' : 'none',
-          width: '100%',
-          height: 'auto',
-          maxHeight: '400px',
-          objectFit: 'cover',
-          transition: 'transform 0.3s ease'
-        }}
-        onMouseOver={(e) => e.target.style.transform = 'scale(1.02)'}
-        onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
+        className="chat-diagram"
       />
     </div>
   );

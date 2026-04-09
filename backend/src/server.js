@@ -30,7 +30,7 @@ app.use(express.json());
 
 app.post("/api/chat", upload.single("file"), async (req, res) => {
   try {
-    const { messages: messagesStr, context } = req.body;
+    const { messages: messagesStr } = req.body;
     const messages = JSON.parse(messagesStr || "[]");
     let extractedText = "";
 
