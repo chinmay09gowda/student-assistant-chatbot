@@ -1,10 +1,10 @@
-# Student Assistant Chatbot 🎓
+# Student Assistant Chatbot
 
 An AI-powered study companion designed for Indian students up to 10th standard. It provides clear, syllabus-based answers in a simple and interactive manner, helping students learn more effectively in their daily studies.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Personalized Onboarding**: Students can select their education board (CBSE, ICSE, State Board), class, and subject to receive tailored assistance.
 - **Subject-Specific Support**: Dedicated AI assistance for Mathematics, Science, Social Studies, and Computers to ensure accurate and relevant explanations.
@@ -17,7 +17,7 @@ An AI-powered study companion designed for Indian students up to 10th standard. 
 
 ---
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### **Frontend**
 - **React (Vite)**: Modern, lightning-fast foundation.
@@ -32,7 +32,7 @@ An AI-powered study companion designed for Indian students up to 10th standard. 
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -69,8 +69,8 @@ npm run dev
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available for contributions.  
 
-*Developed with ❤️ to support students in achieving better understanding and academic performance.*
+*Developed to support students in achieving better understanding and academic performance.*
