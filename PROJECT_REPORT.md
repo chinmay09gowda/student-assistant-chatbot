@@ -153,53 +153,7 @@ Initially, the project grew as a monolithic structure. We performed a large-scal
 
 ---
 
-## 10. Visual Experience Gallery (Live Captures)
-
-### 10.1 Initial Engagement & Setup
-The user experience begins with a high-fidelity 3D preloader, followed by a personalized curriculum setup.
-
-![Preloader Screen](report_images/preloader.png)
-*Figure 1: 3D Cube Preloader managing initial asset synchronization.*
-
-![Initial Setup](report_images/setup_initial.png)
-*Figure 2: The curriculum entry point for Board, Class, and Subject selection.*
-
-![Configured Setup](report_images/setup_filled.png)
-*Figure 3: A completed setup state (CBSE - 8th Grade - Science) ready for launch.*
-
-### 10.2 Dashboard & Interaction
-Once launched, the student is greeted by a clean, focused dashboard with real-time AI responses.
-
-![Empty Dashboard](report_images/dashboard.png)
-*Figure 4: The primary chat workspace immediately after initialization.*
-
-![First Interaction](report_images/chat_intro.png)
-*Figure 5: Real-time response showcasing the AI's personalized introduction.*
-
-### 10.3 Educational Content Delivery
-The assistant excels at simplifying complex topics through summaries, diagrams, and mathematical formatting.
-
-![Syllabus Summary](report_images/chat_summary.png)
-*Figure 6: A concise summary of biological processes with clear formatting.*
-
-![AI-Generated Diagram](report_images/chat_diagram.png)
-*Figure 7: A dynamic biological diagram requested via chat.*
-
-![Mathematical Explanations](report_images/chat_math.png)
-*Figure 8: Clean rendering of geometric calculations and theorems.*
-
-### 10.4 Contextual Management
-The system maintains awareness of the student's needs through persistent UI indicators.
-
-![Context Sidebar](report_images/sidebar.png)
-*Figure 9: The Sidebar tracking current Board/Class/Subject context.*
-
-![Quick Tips](report_images/tips.png)
-*Figure 10: The Interactive Tips section helping students optimize their queries.*
-
----
-
-## 11. Conclusion & Future Roadmap
+## 10. Conclusion & Future Roadmap
 The **Student Assistant Chatbot** represents a significant step forward in specialized AI tools. By focusing strictly on a niche (Indian K-12 education), it provides a safer and more effective alternative to generic AI models.
 
 ### Future Roadmap
